@@ -7,7 +7,7 @@ import retrofit2.http.QueryMap
 
 interface RestApi {
 
-    @GET("/")
+    @GET("/services/rest/")
     fun fetRemoteData(@QueryMap queryMap: Map<String, String>): Call<FlickrResultApi>
 
 }
