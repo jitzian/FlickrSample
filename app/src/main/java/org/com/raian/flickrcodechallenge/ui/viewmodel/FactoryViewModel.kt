@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.room.Room
 import org.com.raian.flickrcodechallenge.constans.GlobalConstants
-import org.com.raian.flickrcodechallenge.constans.database.FlickerDataBase
+import org.com.raian.flickrcodechallenge.repository.database.FlickerDataBase
 
 @Suppress("UNCHECKED_CAST")
 class FactoryViewModel(private val context: Context) : ViewModelProvider.Factory {

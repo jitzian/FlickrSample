@@ -9,8 +9,8 @@ import org.com.raian.flickrcodechallenge.constans.GlobalConstants.Companion.form
 import org.com.raian.flickrcodechallenge.constans.GlobalConstants.Companion.methodValue
 import org.com.raian.flickrcodechallenge.constans.GlobalConstants.Companion.noJsonCallbackValue
 import org.com.raian.flickrcodechallenge.constans.GlobalConstants.Companion.safeSearchValue
-import org.com.raian.flickrcodechallenge.constans.database.FlickerDataBase
-import org.com.raian.flickrcodechallenge.constans.model.FlickerDataClass
+import org.com.raian.flickrcodechallenge.repository.database.FlickerDataBase
+import org.com.raian.flickrcodechallenge.repository.database.model.FlickerDataClass
 import org.com.raian.flickrcodechallenge.dependency.injection.components.DaggerComponentInjector
 import org.com.raian.flickrcodechallenge.dependency.injection.modules.NetworkModule
 import org.com.raian.flickrcodechallenge.rest.RestApi

@@ -9,7 +9,7 @@ import androidx.lifecycle.LiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import org.com.raian.flickrcodechallenge.R
-import org.com.raian.flickrcodechallenge.constans.model.FlickerDataClass
+import org.com.raian.flickrcodechallenge.repository.database.model.FlickerDataClass
 import org.com.raian.flickrcodechallenge.util.prepareUrl
 
 class RVCustomAdapter(
