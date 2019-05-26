@@ -1,0 +1,265 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/raian/.gradle/caches/transforms-2/files-2.1/aa1ad3dd6e9b1d9c527e062a14a67877/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-android-support:2.19] /Users/raian/.gradle/caches/transforms-2/files-2.1/ee2a63d4de0611b2a3632a32f961359c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/f45835ca3716b1dd8eca0adc18319160/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/d66fc8c219a012aaad931846b62a66fa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/raian/.gradle/caches/transforms-2/files-2.1/970d6262e0b5979fbdbe3b3352bbe8dc/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b1daec8da6e64cd97f408bdead3d5866/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5387859433a04becc49ec570a4689ad7/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.room:room-coroutines:2.1.0-alpha04] /Users/raian/.gradle/caches/transforms-2/files-2.1/50ba3bb0fbe87fda06a805aa30595412/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.1.0-beta01] /Users/raian/.gradle/caches/transforms-2/files-2.1/c8b14f3e00d07bac80ea3b94ca57bafe/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.dagger:dagger-android:2.19] /Users/raian/.gradle/caches/transforms-2/files-2.1/4c063808220277830cc9982a501f4b5f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/85aea4678a99ed01b21433169aed42aa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/4cccf6097ad76866e88a806586a65fb5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/ec55d37be90299852f5a2a739603a396/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b91757fd115c19eee081da4f88c30ee8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b74cdf80cbe679836a01149526e84e7f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b3cba55aa2b5d1eee42786e330fb96ba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/04a69e5115237a364620af9729239692/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/raian/.gradle/caches/transforms-2/files-2.1/d2f8a3670110cb59db9f20279c4bc3d4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/1d28dac8c7c16463599947446148beee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/raian/.gradle/caches/transforms-2/files-2.1/fdbeb278c08930f60f32503a175e88df/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/6319cbe792600554e4772e2ac6f85041/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/425a6f337e4f7225ecdbdb84e07fc7b3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5773ae2d9f68f6334fc7fb973c9d5030/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/6246be108b37cb1c723561ba3b124f65/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/4a52300254e28d8fcabf05b5458f55a4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/e2f4aa1d0eea9325c67d2c367e151c8f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/44a6fbb8799e5641f457a408f39a8087/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/a419f0b485ea8b4806a411da5027f74a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/7c98ec92c38732f9ed289bfc61591f30/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/1cc9c463595512278dfccdba13a6142e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e5dc407ccc4607e202c6e94451d58ffa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e9627a46cb0ded8daf64f5218cd3135e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/065952047b1e17228771de4f2cdb18e5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5c4ea713c510f60357372f27d50fc96b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5db857f16d6b2b3c6ba33172e93f110e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/dd3038e4e4c2cf24a40225ae452e6978/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/07f914fe1a0df58680d8f89d80c2149a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/fd270ef412f00becbd0d772e762e9235/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e0535763e089365d66a7f3a0e843887f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/d278def3f9556a09ba1d7dc2fd3689ba/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/ea15c7ae030c62c62020a3f8232d687d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/f91052439e82569037ffcbbb28ed7dde/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/dacd6f34894b2118497cc29d22ad3145/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/b835ee7685da4a8c1035f15c69d77469/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/6a91aefb2fdfd721d239babee18c5428/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/4a7dab36f1ef0a08c5edb734edb65851/AndroidManifest.xml:17:1-22:12
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:4:11-54
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:7:22-64
+application
+ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:9:5-27:19
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/raian/.gradle/caches/transforms-2/files-2.1/aa1ad3dd6e9b1d9c527e062a14a67877/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/raian/.gradle/caches/transforms-2/files-2.1/aa1ad3dd6e9b1d9c527e062a14a67877/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5387859433a04becc49ec570a4689ad7/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5387859433a04becc49ec570a4689ad7/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.1.0-beta01] /Users/raian/.gradle/caches/transforms-2/files-2.1/c8b14f3e00d07bac80ea3b94ca57bafe/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.room:room-runtime:2.1.0-beta01] /Users/raian/.gradle/caches/transforms-2/files-2.1/c8b14f3e00d07bac80ea3b94ca57bafe/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/ea15c7ae030c62c62020a3f8232d687d/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/ea15c7ae030c62c62020a3f8232d687d/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/f91052439e82569037ffcbbb28ed7dde/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/f91052439e82569037ffcbbb28ed7dde/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:22:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/ea15c7ae030c62c62020a3f8232d687d/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:14:13-39
+	android:label
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:12:13-45
+	tools:ignore
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:16:13-52
+	android:roundIcon
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:13:13-58
+	tools:targetApi
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:18:13-32
+	android:icon
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:11:13-47
+	android:allowBackup
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:10:13-39
+	android:theme
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:15:13-44
+	android:networkSecurityConfig
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:17:13-73
+activity#org.com.raian.flickrcodechallenge.ui.activities.MainActivity
+ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:20:19-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:22:17-68
+	android:name
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/raian/.gradle/caches/transforms-2/files-2.1/aa1ad3dd6e9b1d9c527e062a14a67877/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/raian/.gradle/caches/transforms-2/files-2.1/aa1ad3dd6e9b1d9c527e062a14a67877/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.19] /Users/raian/.gradle/caches/transforms-2/files-2.1/ee2a63d4de0611b2a3632a32f961359c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.19] /Users/raian/.gradle/caches/transforms-2/files-2.1/ee2a63d4de0611b2a3632a32f961359c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/f45835ca3716b1dd8eca0adc18319160/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/f45835ca3716b1dd8eca0adc18319160/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/d66fc8c219a012aaad931846b62a66fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/d66fc8c219a012aaad931846b62a66fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/raian/.gradle/caches/transforms-2/files-2.1/970d6262e0b5979fbdbe3b3352bbe8dc/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/raian/.gradle/caches/transforms-2/files-2.1/970d6262e0b5979fbdbe3b3352bbe8dc/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b1daec8da6e64cd97f408bdead3d5866/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b1daec8da6e64cd97f408bdead3d5866/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5387859433a04becc49ec570a4689ad7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5387859433a04becc49ec570a4689ad7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-coroutines:2.1.0-alpha04] /Users/raian/.gradle/caches/transforms-2/files-2.1/50ba3bb0fbe87fda06a805aa30595412/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-coroutines:2.1.0-alpha04] /Users/raian/.gradle/caches/transforms-2/files-2.1/50ba3bb0fbe87fda06a805aa30595412/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0-beta01] /Users/raian/.gradle/caches/transforms-2/files-2.1/c8b14f3e00d07bac80ea3b94ca57bafe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.1.0-beta01] /Users/raian/.gradle/caches/transforms-2/files-2.1/c8b14f3e00d07bac80ea3b94ca57bafe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.19] /Users/raian/.gradle/caches/transforms-2/files-2.1/4c063808220277830cc9982a501f4b5f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.19] /Users/raian/.gradle/caches/transforms-2/files-2.1/4c063808220277830cc9982a501f4b5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/85aea4678a99ed01b21433169aed42aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/85aea4678a99ed01b21433169aed42aa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/4cccf6097ad76866e88a806586a65fb5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/4cccf6097ad76866e88a806586a65fb5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/ec55d37be90299852f5a2a739603a396/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/ec55d37be90299852f5a2a739603a396/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b91757fd115c19eee081da4f88c30ee8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b91757fd115c19eee081da4f88c30ee8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b74cdf80cbe679836a01149526e84e7f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b74cdf80cbe679836a01149526e84e7f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b3cba55aa2b5d1eee42786e330fb96ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b3cba55aa2b5d1eee42786e330fb96ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/04a69e5115237a364620af9729239692/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/04a69e5115237a364620af9729239692/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/raian/.gradle/caches/transforms-2/files-2.1/d2f8a3670110cb59db9f20279c4bc3d4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/raian/.gradle/caches/transforms-2/files-2.1/d2f8a3670110cb59db9f20279c4bc3d4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/1d28dac8c7c16463599947446148beee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/1d28dac8c7c16463599947446148beee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/raian/.gradle/caches/transforms-2/files-2.1/fdbeb278c08930f60f32503a175e88df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/raian/.gradle/caches/transforms-2/files-2.1/fdbeb278c08930f60f32503a175e88df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/6319cbe792600554e4772e2ac6f85041/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/6319cbe792600554e4772e2ac6f85041/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/425a6f337e4f7225ecdbdb84e07fc7b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/425a6f337e4f7225ecdbdb84e07fc7b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5773ae2d9f68f6334fc7fb973c9d5030/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5773ae2d9f68f6334fc7fb973c9d5030/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/6246be108b37cb1c723561ba3b124f65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/6246be108b37cb1c723561ba3b124f65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/4a52300254e28d8fcabf05b5458f55a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/4a52300254e28d8fcabf05b5458f55a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/e2f4aa1d0eea9325c67d2c367e151c8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/e2f4aa1d0eea9325c67d2c367e151c8f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/44a6fbb8799e5641f457a408f39a8087/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/44a6fbb8799e5641f457a408f39a8087/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/a419f0b485ea8b4806a411da5027f74a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/raian/.gradle/caches/transforms-2/files-2.1/a419f0b485ea8b4806a411da5027f74a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/7c98ec92c38732f9ed289bfc61591f30/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/7c98ec92c38732f9ed289bfc61591f30/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/1cc9c463595512278dfccdba13a6142e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/1cc9c463595512278dfccdba13a6142e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e5dc407ccc4607e202c6e94451d58ffa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e5dc407ccc4607e202c6e94451d58ffa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e9627a46cb0ded8daf64f5218cd3135e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e9627a46cb0ded8daf64f5218cd3135e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/065952047b1e17228771de4f2cdb18e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/065952047b1e17228771de4f2cdb18e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5c4ea713c510f60357372f27d50fc96b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5c4ea713c510f60357372f27d50fc96b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5db857f16d6b2b3c6ba33172e93f110e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/5db857f16d6b2b3c6ba33172e93f110e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/dd3038e4e4c2cf24a40225ae452e6978/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/dd3038e4e4c2cf24a40225ae452e6978/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/07f914fe1a0df58680d8f89d80c2149a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/07f914fe1a0df58680d8f89d80c2149a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/fd270ef412f00becbd0d772e762e9235/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/fd270ef412f00becbd0d772e762e9235/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e0535763e089365d66a7f3a0e843887f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/e0535763e089365d66a7f3a0e843887f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/d278def3f9556a09ba1d7dc2fd3689ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/d278def3f9556a09ba1d7dc2fd3689ba/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/ea15c7ae030c62c62020a3f8232d687d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/raian/.gradle/caches/transforms-2/files-2.1/ea15c7ae030c62c62020a3f8232d687d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/f91052439e82569037ffcbbb28ed7dde/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/f91052439e82569037ffcbbb28ed7dde/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/dacd6f34894b2118497cc29d22ad3145/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/dacd6f34894b2118497cc29d22ad3145/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/b835ee7685da4a8c1035f15c69d77469/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/b835ee7685da4a8c1035f15c69d77469/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/6a91aefb2fdfd721d239babee18c5428/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/raian/.gradle/caches/transforms-2/files-2.1/6a91aefb2fdfd721d239babee18c5428/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/4a7dab36f1ef0a08c5edb734edb65851/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] /Users/raian/.gradle/caches/transforms-2/files-2.1/4a7dab36f1ef0a08c5edb734edb65851/AndroidManifest.xml:20:5-44
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+		ADDED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+		INJECTED from /www/kotlinWS/FlickrCodeChallenge/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/raian/.gradle/caches/transforms-2/files-2.1/06b684bb398d3407365fd04d93a21dff/AndroidManifest.xml:9:13-64
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.1.0-beta01] /Users/raian/.gradle/caches/transforms-2/files-2.1/c8b14f3e00d07bac80ea3b94ca57bafe/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.1.0-beta01] /Users/raian/.gradle/caches/transforms-2/files-2.1/c8b14f3e00d07bac80ea3b94ca57bafe/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.1.0-beta01] /Users/raian/.gradle/caches/transforms-2/files-2.1/c8b14f3e00d07bac80ea3b94ca57bafe/AndroidManifest.xml:24:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/raian/.gradle/caches/transforms-2/files-2.1/b8300ef13b896777f06aa5d6aa0c09a5/AndroidManifest.xml:24:13-79
