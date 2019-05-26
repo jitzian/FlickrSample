@@ -12,7 +12,6 @@ import org.com.raian.flickrcodechallenge.R
 import org.com.raian.flickrcodechallenge.constans.model.FlickerDataClass
 import org.com.raian.flickrcodechallenge.util.prepareUrl
 
-
 class RVCustomAdapter(
     private val context: Context,
     var lstRes: LiveData<List<FlickerDataClass>>
@@ -41,6 +40,8 @@ class RVCustomAdapter(
         fun bindData(flickerDataClass: FlickerDataClass) {
             Picasso.get()
                 .load(prepareUrl(flickerDataClass))
+                .resize(600, 400)
+                .centerInside()
                 .into(mImageViewPhoto)
 
         }

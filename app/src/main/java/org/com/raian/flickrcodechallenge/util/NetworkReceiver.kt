@@ -23,7 +23,7 @@ class NetworkReceiver(networkListener: NetworkListener) : BroadcastReceiver() {
         networkListener?.getNetworkStatus(isConnectionAvailable(connectivityManager.activeNetworkInfo))
     }
 
-    //Sorry for the deprecation
+    //Sorry for the deprecation did not have enough time to check the proper method
     private fun isConnectionAvailable(networkInfo: NetworkInfo?): Boolean {
         return networkInfo != null && networkInfo.isConnectedOrConnecting
     }

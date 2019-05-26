@@ -11,7 +11,6 @@ import org.com.raian.flickrcodechallenge.ui.viewmodel.FactoryViewModel
 import org.com.raian.flickrcodechallenge.util.NetworkReceiver
 import java.util.logging.Logger
 
-
 abstract class BaseActivity : AppCompatActivity(), NetworkReceiver.NetworkListener {
     internal lateinit var TAG: String
     internal lateinit var logger: Logger
@@ -21,6 +20,7 @@ abstract class BaseActivity : AppCompatActivity(), NetworkReceiver.NetworkListen
     internal val displayFetchedDataViewModel by lazy {
         ViewModelProviders.of(this, FactoryViewModel(this)).get(DisplayFetchedDataViewModel::class.java)
     }
+
     override fun onStart() {
         super.onStart().also {
             networkReceiver = NetworkReceiver(this)

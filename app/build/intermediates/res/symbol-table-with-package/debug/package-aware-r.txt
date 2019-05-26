@@ -1384,6 +1384,7 @@ id list_item
 id mImageViewPhoto
 id mLayoutMainActivityContainer
 id mRecyclerView
+id mSearchView
 id masked
 id media_actions
 id message

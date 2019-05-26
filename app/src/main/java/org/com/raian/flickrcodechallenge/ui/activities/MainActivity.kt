@@ -1,16 +1,18 @@
 package org.com.raian.flickrcodechallenge.ui.activities
 
 import android.os.Bundle
+import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import org.com.raian.flickrcodechallenge.R
+import org.com.raian.flickrcodechallenge.constans.GlobalConstants.Companion.totalOfColumns
 import org.com.raian.flickrcodechallenge.ui.adapter.RVCustomAdapter
 import org.com.raian.flickrcodechallenge.util.NetworkReceiver
 import java.util.logging.Logger
 
 class MainActivity : BaseActivity(), NetworkReceiver.NetworkListener  {
-
+    private lateinit var mSearchView: SearchView
     private lateinit var mRecyclerView: RecyclerView
     private lateinit var layoutManager: GridLayoutManager
     private lateinit var rvCustomAdapter: RVCustomAdapter
@@ -27,19 +29,35 @@ class MainActivity : BaseActivity(), NetworkReceiver.NetworkListener  {
         }
     }
 
+    override fun onResume() {
+        super.onResume().also {
+            displayFetchedDataViewModel.checkLocalData(mSearchView.query.toString())
+        }
+    }
+
     override fun initViews() {
+        mSearchView = findViewById(R.id.mSearchView)
+        mSearchView.queryHint = getString(R.string.searchHint)
         mRecyclerView = findViewById(R.id.mRecyclerView)
-        layoutManager = GridLayoutManager(this, 3)
+        layoutManager = GridLayoutManager(this, totalOfColumns)
         mRecyclerView.layoutManager = layoutManager
         rvCustomAdapter = RVCustomAdapter(this, displayFetchedDataViewModel.getListOfDataForUI())
         mRecyclerView.adapter = rvCustomAdapter
+
+        setupListeners()
     }
 
-    override fun onResume() {
-        super.onResume().also {
-            //TODO: Implement search by input
-            displayFetchedDataViewModel.prepareRemoteData("dragonBall")
-        }
+    private fun setupListeners(){
+        mSearchView.setOnQueryTextListener(object: SearchView.OnQueryTextListener{
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                query?.let { displayFetchedDataViewModel.checkLocalData(it) }
+                return false
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                return false
+            }
+        })
     }
 
     private fun prepareObservers(){

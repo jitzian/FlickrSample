@@ -15,13 +15,14 @@ import org.com.raian.flickrcodechallenge.dependency.injection.components.DaggerC
 import org.com.raian.flickrcodechallenge.dependency.injection.modules.NetworkModule
 import org.com.raian.flickrcodechallenge.rest.RestApi
 import org.com.raian.flickrcodechallenge.rest.model.FlickrResultApi
-import org.com.raian.flickrcodechallenge.util.safeLet
+import retrofit2.Call
+import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import java.util.logging.Logger
 import javax.inject.Inject
 
-class DisplayFetchedDataViewModel(private val db: FlickerDataBase, private val context: Context) : BaseViewModel() {
+class DisplayFetchedDataViewModel(private val db: FlickerDataBase, context: Context) : BaseViewModel() {
 
     private val listOfDataForUI by lazy {
         MutableLiveData<List<FlickerDataClass>>()
@@ -46,7 +47,21 @@ class DisplayFetchedDataViewModel(private val db: FlickerDataBase, private val c
         restApi = retrofit.create(RestApi::class.java)
     }
 
-    fun prepareRemoteData(query: String) = GlobalScope.launch(Dispatchers.IO) {
+    fun checkLocalData(input: String?) {
+        GlobalScope.launch(Dispatchers.IO) {
+            if (!input.isNullOrEmpty()) {
+                clearLocalData()
+                input.let {
+                    prepareRemoteData(it)
+                }
+            } else {
+                getStoredDataForUI()
+            }
+        }
+    }
+
+    private fun prepareRemoteData(query: String) = GlobalScope.launch(Dispatchers.IO) {
+        //Buidling URL
         val queryMap = mutableMapOf(
             "method" to methodValue,
             "api_key" to flickrKey,
@@ -57,12 +72,17 @@ class DisplayFetchedDataViewModel(private val db: FlickerDataBase, private val c
         )
 
         val deferredDataFetchedResult = async {
-            restApi.fetRemoteData(queryMap).execute()
-        }
+            restApi.fetRemoteData(queryMap).enqueue(object : Callback<FlickrResultApi> {
+                override fun onFailure(call: Call<FlickrResultApi>, t: Throwable) {
+                    logger.severe("$TAG::prepareRemoteData::onFailure::${t.message}::${t.cause}")
+                }
 
-        safeLet(deferredDataFetchedResult.await()) { it ->
-            insertDataIntoDb(it)
+                override fun onResponse(call: Call<FlickrResultApi>, response: Response<FlickrResultApi>) {
+                    insertDataIntoDb(response)
+                }
+            })
         }
+        deferredDataFetchedResult.await()
     }
 
     private fun insertDataIntoDb(response: Response<FlickrResultApi>) = GlobalScope.launch {
@@ -87,6 +107,14 @@ class DisplayFetchedDataViewModel(private val db: FlickerDataBase, private val c
             }
             listOfDataForUI.postValue(db.flickerDao().getAll())
         }
+    }
+
+    private fun getStoredDataForUI() = GlobalScope.launch(Dispatchers.IO) {
+        listOfDataForUI.postValue(db.flickerDao().getAll())
+    }
+
+    private fun clearLocalData() = GlobalScope.launch(Dispatchers.IO) {
+        db.flickerDao().deleteAll()
     }
 
     fun getListOfDataForUI(): LiveData<List<FlickerDataClass>> {
